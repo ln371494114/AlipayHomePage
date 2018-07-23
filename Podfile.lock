@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15)
+  - MJRefresh (3.1.15.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+
+PODFILE CHECKSUM: 873c33b24171da7e0e86604e70ded895d96db04f
+
+COCOAPODS: 1.4.0

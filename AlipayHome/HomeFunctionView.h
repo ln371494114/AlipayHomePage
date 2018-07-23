@@ -6,8 +6,10 @@
 //  Copyright © 2018年 李楠. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface HomeFunctionView : NSObject
+@interface HomeFunctionView : UIView
+
+@property (nonatomic, strong) UIView *contentView;
 
 @end

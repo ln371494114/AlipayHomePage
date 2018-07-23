@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D63B3969320E7697CF736109 /* Pods_AlipayHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC059A6E15E149F324871B1 /* Pods_AlipayHome.framework */; };
+		EE0E639E2105B898003CE0FD /* mmmmmmmm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0E639D2105B897003CE0FD /* mmmmmmmm@2x.png */; };
+		EE0E63A12105D042003CE0FD /* littleScan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0E639F2105D041003CE0FD /* littleScan@2x.png */; };
+		EE0E63A22105D042003CE0FD /* littleCollectMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0E63A02105D042003CE0FD /* littleCollectMoney@2x.png */; };
+		EE0E63A42105D3F7003CE0FD /* littleSearch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0E63A32105D3F7003CE0FD /* littleSearch@2x.png */; };
 		EEC543B8210180A100AF5490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC543B7210180A100AF5490 /* AppDelegate.m */; };
-		EEC543BB210180A200AF5490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC543BA210180A200AF5490 /* ViewController.m */; };
 		EEC543BE210180A200AF5490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC543BC210180A200AF5490 /* Main.storyboard */; };
 		EEC543C0210180A400AF5490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC543BF210180A400AF5490 /* Assets.xcassets */; };
 		EEC543C3210180A400AF5490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC543C1210180A400AF5490 /* LaunchScreen.storyboard */; };
 		EEC543C6210180A400AF5490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC543C5210180A400AF5490 /* main.m */; };
 		EEC543D0210180A400AF5490 /* AlipayHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC543CF210180A400AF5490 /* AlipayHomeTests.m */; };
 		EEC543DB210180A400AF5490 /* AlipayHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC543DA210180A400AF5490 /* AlipayHomeUITests.m */; };
+		EEC543EC2101835F00AF5490 /* HomeFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC543EB2101835F00AF5490 /* HomeFunctionView.m */; };
+		EEC543F52101871C00AF5490 /* cardsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC543EE2101871B00AF5490 /* cardsIcon@2x.png */; };
+		EEC543F62101871C00AF5490 /* addMore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC543EF2101871B00AF5490 /* addMore@2x.png */; };
+		EEC543F82101871C00AF5490 /* transferMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC543F12101871C00AF5490 /* transferMoney@2x.png */; };
+		EEC543F92101871C00AF5490 /* scanIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC543F22101871C00AF5490 /* scanIcon@2x.png */; };
+		EEC543FA2101871C00AF5490 /* payIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC543F32101871C00AF5490 /* payIcon@2x.png */; };
+		EEC543FB2101871C00AF5490 /* adressBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC543F42101871C00AF5490 /* adressBook@2x.png */; };
+		EEC544012101885F00AF5490 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC544002101885F00AF5490 /* UIView+Frame.m */; };
+		EEC544042101934C00AF5490 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC544032101934C00AF5490 /* HomePageViewController.m */; };
+		EEC544072101B60500AF5490 /* HomeUsusalFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC544062101B60500AF5490 /* HomeUsusalFunctionView.m */; };
+		EEC5440A2101B6E700AF5490 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC544092101B6E700AF5490 /* HomeCollectionViewCell.m */; };
+		EEC5440C2101CC1D00AF5490 /* collectMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC5440B2101CC1D00AF5490 /* collectMoney@2x.png */; };
+		EEC5440F2101D4D300AF5490 /* NSObject+kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5440E2101D4D300AF5490 /* NSObject+kvo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DA059B139E472F59B89D9E5 /* Pods-AlipayHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayHome/Pods-AlipayHome.debug.xcconfig"; sourceTree = "<group>"; };
+		9CC059A6E15E149F324871B1 /* Pods_AlipayHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlipayHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB67A299A0146E0A2C811A2A /* Pods-AlipayHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayHome/Pods-AlipayHome.release.xcconfig"; sourceTree = "<group>"; };
+		EE0E639D2105B897003CE0FD /* mmmmmmmm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mmmmmmmm@2x.png"; sourceTree = "<group>"; };
+		EE0E639F2105D041003CE0FD /* littleScan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "littleScan@2x.png"; sourceTree = "<group>"; };
+		EE0E63A02105D042003CE0FD /* littleCollectMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "littleCollectMoney@2x.png"; sourceTree = "<group>"; };
+		EE0E63A32105D3F7003CE0FD /* littleSearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "littleSearch@2x.png"; sourceTree = "<group>"; };
 		EEC543B3210180A100AF5490 /* AlipayHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlipayHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC543B6210180A100AF5490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEC543B7210180A100AF5490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEC543B9210180A100AF5490 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEC543BA210180A200AF5490 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EEC543BD210180A200AF5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC543BF210180A400AF5490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC543C2210180A400AF5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +73,27 @@
 		EEC543D6210180A400AF5490 /* AlipayHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipayHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC543DA210180A400AF5490 /* AlipayHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayHomeUITests.m; sourceTree = "<group>"; };
 		EEC543DC210180A400AF5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC543E82101818200AF5490 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		EEC543E9210182E600AF5490 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EEC543EA2101835F00AF5490 /* HomeFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFunctionView.h; sourceTree = "<group>"; };
+		EEC543EB2101835F00AF5490 /* HomeFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFunctionView.m; sourceTree = "<group>"; };
+		EEC543EE2101871B00AF5490 /* cardsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardsIcon@2x.png"; sourceTree = "<group>"; };
+		EEC543EF2101871B00AF5490 /* addMore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addMore@2x.png"; sourceTree = "<group>"; };
+		EEC543F12101871C00AF5490 /* transferMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transferMoney@2x.png"; sourceTree = "<group>"; };
+		EEC543F22101871C00AF5490 /* scanIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanIcon@2x.png"; sourceTree = "<group>"; };
+		EEC543F32101871C00AF5490 /* payIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payIcon@2x.png"; sourceTree = "<group>"; };
+		EEC543F42101871C00AF5490 /* adressBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adressBook@2x.png"; sourceTree = "<group>"; };
+		EEC543FF2101885F00AF5490 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EEC544002101885F00AF5490 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EEC544022101934C00AF5490 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		EEC544032101934C00AF5490 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		EEC544052101B60500AF5490 /* HomeUsusalFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeUsusalFunctionView.h; sourceTree = "<group>"; };
+		EEC544062101B60500AF5490 /* HomeUsusalFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeUsusalFunctionView.m; sourceTree = "<group>"; };
+		EEC544082101B6E700AF5490 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		EEC544092101B6E700AF5490 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		EEC5440B2101CC1D00AF5490 /* collectMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collectMoney@2x.png"; sourceTree = "<group>"; };
+		EEC5440D2101D4D300AF5490 /* NSObject+kvo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+kvo.h"; sourceTree = "<group>"; };
+		EEC5440E2101D4D300AF5490 /* NSObject+kvo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+kvo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D63B3969320E7697CF736109 /* Pods_AlipayHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +122,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B45D7E4705D288DAB030F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA059B139E472F59B89D9E5 /* Pods-AlipayHome.debug.xcconfig */,
+				EB67A299A0146E0A2C811A2A /* Pods-AlipayHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		898FA82D9AB314EEB4D37414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC059A6E15E149F324871B1 /* Pods_AlipayHome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEC543AA210180A100AF5490 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,8 @@
 				EEC543CE210180A400AF5490 /* AlipayHomeTests */,
 				EEC543D9210180A400AF5490 /* AlipayHomeUITests */,
 				EEC543B4210180A100AF5490 /* Products */,
+				3B45D7E4705D288DAB030F04 /* Pods */,
+				898FA82D9AB314EEB4D37414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +164,23 @@
 		EEC543B5210180A100AF5490 /* AlipayHome */ = {
 			isa = PBXGroup;
 			children = (
+				EEC5440D2101D4D300AF5490 /* NSObject+kvo.h */,
+				EEC5440E2101D4D300AF5490 /* NSObject+kvo.m */,
 				EEC543B6210180A100AF5490 /* AppDelegate.h */,
 				EEC543B7210180A100AF5490 /* AppDelegate.m */,
-				EEC543B9210180A100AF5490 /* ViewController.h */,
-				EEC543BA210180A200AF5490 /* ViewController.m */,
+				EEC543FF2101885F00AF5490 /* UIView+Frame.h */,
+				EEC544002101885F00AF5490 /* UIView+Frame.m */,
+				EEC543E82101818200AF5490 /* Constant.h */,
+				EEC543E9210182E600AF5490 /* PrefixHeader.pch */,
+				EEC543EA2101835F00AF5490 /* HomeFunctionView.h */,
+				EEC543EB2101835F00AF5490 /* HomeFunctionView.m */,
+				EEC544082101B6E700AF5490 /* HomeCollectionViewCell.h */,
+				EEC544092101B6E700AF5490 /* HomeCollectionViewCell.m */,
+				EEC544052101B60500AF5490 /* HomeUsusalFunctionView.h */,
+				EEC544062101B60500AF5490 /* HomeUsusalFunctionView.m */,
+				EEC544022101934C00AF5490 /* HomePageViewController.h */,
+				EEC544032101934C00AF5490 /* HomePageViewController.m */,
+				EEC543ED2101861600AF5490 /* Image */,
 				EEC543BC210180A200AF5490 /* Main.storyboard */,
 				EEC543BF210180A400AF5490 /* Assets.xcassets */,
 				EEC543C1210180A400AF5490 /* LaunchScreen.storyboard */,
@@ -132,6 +208,24 @@
 			path = AlipayHomeUITests;
 			sourceTree = "<group>";
 		};
+		EEC543ED2101861600AF5490 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EE0E63A32105D3F7003CE0FD /* littleSearch@2x.png */,
+				EE0E63A02105D042003CE0FD /* littleCollectMoney@2x.png */,
+				EE0E639F2105D041003CE0FD /* littleScan@2x.png */,
+				EEC543EF2101871B00AF5490 /* addMore@2x.png */,
+				EEC5440B2101CC1D00AF5490 /* collectMoney@2x.png */,
+				EE0E639D2105B897003CE0FD /* mmmmmmmm@2x.png */,
+				EEC543F42101871C00AF5490 /* adressBook@2x.png */,
+				EEC543EE2101871B00AF5490 /* cardsIcon@2x.png */,
+				EEC543F32101871C00AF5490 /* payIcon@2x.png */,
+				EEC543F22101871C00AF5490 /* scanIcon@2x.png */,
+				EEC543F12101871C00AF5490 /* transferMoney@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEC543DF210180A400AF5490 /* Build configuration list for PBXNativeTarget "AlipayHome" */;
 			buildPhases = (
+				CC1AE8E2CD7B9706960936A6 /* [CP] Check Pods Manifest.lock */,
 				EEC543AF210180A100AF5490 /* Sources */,
 				EEC543B0210180A100AF5490 /* Frameworks */,
 				EEC543B1210180A100AF5490 /* Resources */,
+				8FBEC5985363E000A765489A /* [CP] Embed Pods Frameworks */,
+				ABD4249439F5F731480AFF1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +332,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC543FB2101871C00AF5490 /* adressBook@2x.png in Resources */,
+				EE0E63A12105D042003CE0FD /* littleScan@2x.png in Resources */,
 				EEC543C3210180A400AF5490 /* LaunchScreen.storyboard in Resources */,
+				EE0E63A22105D042003CE0FD /* littleCollectMoney@2x.png in Resources */,
+				EE0E639E2105B898003CE0FD /* mmmmmmmm@2x.png in Resources */,
+				EEC5440C2101CC1D00AF5490 /* collectMoney@2x.png in Resources */,
+				EEC543F92101871C00AF5490 /* scanIcon@2x.png in Resources */,
 				EEC543C0210180A400AF5490 /* Assets.xcassets in Resources */,
+				EEC543FA2101871C00AF5490 /* payIcon@2x.png in Resources */,
 				EEC543BE210180A200AF5490 /* Main.storyboard in Resources */,
+				EE0E63A42105D3F7003CE0FD /* littleSearch@2x.png in Resources */,
+				EEC543F52101871C00AF5490 /* cardsIcon@2x.png in Resources */,
+				EEC543F82101871C00AF5490 /* transferMoney@2x.png in Resources */,
+				EEC543F62101871C00AF5490 /* addMore@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +365,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8FBEC5985363E000A765489A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlipayHome/Pods-AlipayHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlipayHome/Pods-AlipayHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD4249439F5F731480AFF1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlipayHome/Pods-AlipayHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1AE8E2CD7B9706960936A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlipayHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEC543AF210180A100AF5490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC543BB210180A200AF5490 /* ViewController.m in Sources */,
 				EEC543C6210180A400AF5490 /* main.m in Sources */,
+				EEC544042101934C00AF5490 /* HomePageViewController.m in Sources */,
 				EEC543B8210180A100AF5490 /* AppDelegate.m in Sources */,
+				EEC544012101885F00AF5490 /* UIView+Frame.m in Sources */,
+				EEC5440F2101D4D300AF5490 /* NSObject+kvo.m in Sources */,
+				EEC5440A2101B6E700AF5490 /* HomeCollectionViewCell.m in Sources */,
+				EEC544072101B60500AF5490 /* HomeUsusalFunctionView.m in Sources */,
+				EEC543EC2101835F00AF5490 /* HomeFunctionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +608,15 @@
 		};
 		EEC543E0210180A400AF5490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA059B139E472F59B89D9E5 /* Pods-AlipayHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53395UF4JK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AlipayHome/PrefixHeader.pch";
 				INFOPLIST_FILE = AlipayHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +629,15 @@
 		};
 		EEC543E1210180A400AF5490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB67A299A0146E0A2C811A2A /* Pods-AlipayHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53395UF4JK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AlipayHome/PrefixHeader.pch";
 				INFOPLIST_FILE = AlipayHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

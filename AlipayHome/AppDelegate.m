@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomePageViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    HomePageViewController *vc = [HomePageViewController new];
+    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
+    navc.navigationBar.barTintColor = [UIColor colorWithRed:0 green:0.5059 blue:0.9216 alpha:1];
+    navc.navigationBar.translucent = NO;
+
+    navc.navigationBar.shadowImage = [UIImage new];
+    self.window.rootViewController = navc;
+    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 
